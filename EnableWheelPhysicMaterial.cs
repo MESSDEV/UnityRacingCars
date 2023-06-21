@@ -5,7 +5,7 @@ public class EnableWheelPhysicMaterial : MonoBehaviour
     private WheelCollider wheel;
     void Start()
     {
-        wheel = GetComponent<WheelCollider>();
+        wheel=GetComponent<WheelCollider>();
     }
  
     void FixedUpdate()
